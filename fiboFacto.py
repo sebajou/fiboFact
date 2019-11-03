@@ -19,6 +19,7 @@ def fibo(n):
         b = c
     print(fib)
 
+<<<<<<< HEAD
 conti = True
 while conti:
     try:
@@ -35,3 +36,13 @@ while conti:
         print("On attend fibo ou fact")
     else:
         conti = True
+=======
+a = input("For Fibonatchi write fibo, for factorial write fact : ")
+
+if a=="fibo":
+    b = int(input("Suite Fibonatchi jusqu'à quel nombres ? : "))
+    print(fibo(b))
+elif a=="fact":
+    b = int(input("Factoriel de quel nombres ? : "))
+    print(FirstFactorial(b))
+>>>>>>> be297cff4a67e8224b8b49fa380725ea1b92287e
